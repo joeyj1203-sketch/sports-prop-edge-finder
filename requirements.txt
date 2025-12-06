@@ -1,0 +1,8 @@
+streamlit
+requests
+pandas
+numpy
+pydantic
+beautifulsoup4
+lxml
+python-dateutil
