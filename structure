@@ -1,0 +1,29 @@
+sports-prop-edge-finder/
+  app/
+    __init__.py
+    config.py
+    models.py
+    odds_providers.py
+    statmuse_client.py
+    stats_engine.py
+    dvp_module.py
+    context_module.py
+    weather_module.py
+    edge_engine.py
+    backtest.py
+  streamlit_app.py
+  scripts/
+    fetch_markets.py
+    sanity_check.py
+  data/
+    raw/
+      markets_sample.csv          # sample props CSV
+    processed/
+      dvp_nba.csv                 # NBA DvP sample
+      dvp_nfl.csv                 # NFL DvP sample (optional starter)
+      stadiums_nfl.csv            # NFL stadiums + lat/lon + indoor flag
+  tests/
+    test_statmuse_client.py
+    test_edge_engine.py
+  requirements.txt
+  README.md
